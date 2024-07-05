@@ -16,7 +16,7 @@ const users = [
 ];
 
 // Endpoint to get all users
-app.get("/api/users", (req, res) => {
+app.get("/", (req, res) => {
   res.json(users);
 });
 

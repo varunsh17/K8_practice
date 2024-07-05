@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 
-const url = "http://localhost:8000/api/users";
+const url = "http://express-service/";
 
 function App() {
   const [data, setData] = useState();
